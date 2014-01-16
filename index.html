@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hey you</title>
+		<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDRU_hzB5XTYUQ5vWe1dpHffk053tR4Sg&sensor=true">
+    </script>
+	<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		   <script type="text/javascript" charset="utf-8"></script>
+
+    </head>
+    <body>
+	<h1>Index</h1>
+
+		<div align="center">
+            <a href="#" class="btn" onclick="findMyLocation();">Find My Location</a>
+            <p id="location"></p>
+        </div>
+			<a href="index.html" >Lien vers index</a>
+		<p id="geolocation">Finding geolocation...</p>
+		
+		<a href="#" class="btn" onclick="WatchThePosition();">Activer la géolocalisation automatique </a>
+		<a href="#" class="btn" onclick="clearWatch();">Désactiver la géolocalisation automatique </a>
+		
+
+        <div id="map-canvas"></div>
+		
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
